@@ -6,8 +6,7 @@ margin: 0;
 padding: 0;
 }
 
-/* Til að lita headerinn og fá textann í miðjuna */
-
+/* Text to middle and colour header */
 header{
 background: #b2dcea;
 height: 105px;
@@ -16,8 +15,7 @@ border-radius: 10px;
 text-align: center;
 }
 
-
-/* Lita link-ana svarta og stækka letrið á þeim */
+/* Letter size and colour on links */
 header a{
 color: black;
 font-size: 24px;
@@ -39,7 +37,7 @@ padding-left: 20px;
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    width: 165px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
