@@ -6,6 +6,7 @@ margin: 0;
 padding: 0;
 }
 
+<<<<<<< HEAD
 /* Text to middle and colour header */
 header{
 background: #b2dcea;
@@ -33,6 +34,8 @@ display: inline;
 padding-right: 70px;
 padding-left: 20px;
 }
+=======
+>>>>>>> 39bd8b599884f01f9e4db4afd3abadbe750061d6
 
 /* The sidebar menu */
 .sidenav {
