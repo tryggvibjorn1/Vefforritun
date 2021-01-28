@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,700&display=swap');
+
+
+body{
+font-family: Montserrat, serif;
+margin: 0;
+padding: 0;
+}
+
+/* Til að lita headerinn og fá textann í miðjuna */
+
+header{
+background: #b2dcea;
+height: 105px;
+border: black 2px solid;
+border-radius: 10px;
+text-align: center;
+}
+
+
+/* Lita link-ana svarta og stækka letrið á þeim */
+header a{
+color: black;
+font-size: 24px;
+}
+
+/* Svo "hire" og "fire" sé alveg efst. */
+header ul{
+margin-top: 5px;
+margin-bottom: 30px;
+}
+
+/* Til að fá "hire" og "fire" til að vera hlið við hlið */
+header li{
+display: inline;
+padding-right: 70px;
+padding-left: 20px;
+}
+
+#searchbox{
+margin-bottom: 20px;
+}
+
+#searchbox input[type="text"]{
+width: 130px;
+border: lightgray 1px solid;
+}
+#searchbox input[type="submit"]{
+background: none;
+border: none;
+cursor: pointer;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.box{
+margin: 5% 1% 5% 1%;
+width: 220px;
+height: 210px;
+background: #b2dcea;
+border-radius: 10px;
+border: black 2px solid;
+display: flex;
+}
+
+.name{
+display: none;
+}
+
+
+img{
+width: 50px;
+padding: 5px 15px 0 15px;
+}
+
+h4{
+text-align: center;
+word-wrap: break-word;
+width: 65px;
+font-size: 18px;
+font-weight: 500;
+padding-left: 15px;
+}
+
+.information h3{
+padding-top: 15px;
+font-size: 16px;
+width: 130px;
+word-wrap: break-word;
+}
+
+.top{
+margin: 0;
+padding-top: 10px;
+font-weight: 500;
+}
+
+.bottom{
+margin: 0;
+padding-bottom: 10px;
+font-weight: 400;
+}
+
+
+
+/* Footer */
+.footer1{
+text-align: center;
+
+}
+
+.footer2{
+background: #b2dcea;
+border: black 2px solid;
+display: inline-block;
+width: 85%;
+height: 50%;
+border-radius: 10px;
+margin-top: 10px;
+
+}
+
+.about{
+float: left;
+margin: 25px 0 0 30px;
+width: 40%;
+}
+
+.about h3{
+font-weight: 400;
+font-size: 20px;
+text-align: left;
+}
+
+.about p{
+font-size: 16px;
+text-align: justify;
+}
+
+.contact{
+float: right;
+margin: 25px 30px 0 0;
+width: 40%;
+}
+
+.contact h3{
+font-weight: 400;
+font-size: 20px;
+text-align: right;
+}
+
+.contact ul{
+list-style-type: none;
+text-align: right;
+}
+
+.contact a{
+color: black;
+}
+#hamburger{
+display: none;
+
+}
+
+
+/* 1000 PIXLAR */
+
+@media only screen and (max-width: 1000px){
+.box {
+    margin: 3% 1.5% 3% 1.5%;
+    width: 300px;
+    height: 200px;
+}
+.img_and_h4{
+    width: 120px;
+}
+img{
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    text-align: center;
+    word-wrap: break-word;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0;
+}
+.information h3{
+    padding-top: 15px;
+    font-size: 16px;
+    width: 180px;
+    word-wrap: break-word;
+}
+#hamburger{
+    display: none;
+    
+}
+}
+
+
+/* 651 PIXLAR */
+/*
+@media only screen and (max-width: 651px){
+.box {
+    margin: 3% 3% 3% 3%;
+    width: 300px;
+    height: 200px;
+}
+}
+
+*/
+
+
+/* 650 PIXLAR */
+
+@media only screen and (max-width: 650px){
+
+header{
+    background: #b2dcea;
+    height: 50px;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    margin: 3% 3% 3% 3%;
+    width: 330px;
+    height: 200px;
+    align-self: center;
+    display: inline-block;
+    text-align: center;
+}
+.name{
+    display: none;
+}
+
+/* Lita link-ana svarta og stækka letrið á þeim */
+header a{
+    display: none;
+}
+
+/* Svo "hire" og "fire" sé alveg efst. */
+header ul{
+    display: none;
+}
+
+/* Til að fá "hire" og "fire" til að vera hlið við hlið */
+header li{
+    display: none;
+}
+
+#searchbox{
+    display: none;
+}
+
+#searchbox input[type="text"]{
+    display: none;
+}
+
+.img_and_h4{
+    display: inline-block;
+}
+
+img{
+    display: none;
+}
+
+.img_and_h4 h4{
+    word-wrap: break-word;
+    display: inline-block;
+    margin: 25px 0 15px 0;
+}
+
+.top{
+    text-align: center;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.information{
+    text-align: center;
+}
+
+.information h3{
+    width: 300px;
+    font-size: 16px;
+    word-wrap: break-word;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+#hamburger{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+}
+
+@media print {
+
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Svo "hire" og "fire" sé alveg efst. */
+header ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+#searchbox{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#searchbox input[type="text"]{
+    width: 130px;
+    border: lightgray 1px solid;
+
+}
+
+
+.box{
+    margin: 0 2px 0 2px;
+    width: 300px;
+    height: 210px;
+    background: none;
+    border-radius: 10px;
+    border: black 2px solid;
+    align-self: center;
+    display: inline-block;
+    text-align: center;
+}
+
+.name{
+    display: inline;
+    font-weight: 700;
+}
+
+img{
+    display: none;
+}
+
+h4{
+display: none;
+}
+
+.information{
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.information h3{
+    padding-top: 10px;
+    font-size: 16px;
+    width: 300px;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+.top{
+    margin: 0;
+    padding-top: 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bottom{
+    margin: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+}
+.footer2{
+    margin-top: 0;
+
+}
+#hamburger{
+    display: none;
+
+}
+}
