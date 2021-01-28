@@ -6,35 +6,6 @@ margin: 0;
 padding: 0;
 }
 
-/* Til að lita headerinn og fá textann í miðjuna */
-
-header{
-background: #b2dcea;
-height: 105px;
-border: black 2px solid;
-border-radius: 10px;
-text-align: center;
-}
-
-
-/* Lita link-ana svarta og stækka letrið á þeim */
-header a{
-color: black;
-font-size: 24px;
-}
-
-/* Svo "hire" og "fire" sé alveg efst. */
-header ul{
-margin-top: 5px;
-margin-bottom: 30px;
-}
-
-/* Til að fá "hire" og "fire" til að vera hlið við hlið */
-header li{
-display: inline;
-padding-right: 70px;
-padding-left: 20px;
-}
 
 /* The sidebar menu */
 .sidenav {
