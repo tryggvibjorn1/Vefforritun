@@ -137,14 +137,15 @@ h4{
 
 .bottom {
     margin: 0;
-    padding-top: 1px;
+    padding-top: 10px;
     padding-right: 4px;
 }
 
 .information h3{
-    padding-top: 15px;
+    padding-top: 0px;
+    padding-left: 10px;
     font-size: 12px;
-    width: 120px;
+    width: 140px;
     word-wrap: break-word;
 }
 #hamburger{
