@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital,wght@0,100;1,100&display=swap');
 
 body{
+font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto Mono', monospace;
 margin: 0;
 padding: 0;
@@ -9,16 +10,17 @@ padding: 0;
 
 /* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    width: 165px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
     left: 0;
-    background-color: #deebf7; /* Black */
+    background-color: #deebf7;
     border-left: #9ecae1 5px solid;
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; 
     padding-top: 20px;
+    text-align: center;
   }
   
   /* The navigation menu links */
@@ -40,8 +42,7 @@ padding: 0;
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  /* When height is smaller than 450 pixels the style of sidebar changes */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -65,7 +66,6 @@ border-left: #9ecae1 5px solid;
 .name{
 display: none;
 }
-
 
 img{
 width: 50px;
@@ -95,10 +95,15 @@ font-weight: 500;
 }
 
 .bottom{
+<<<<<<< HEAD
     margin: 0;
 padding-top: 15px;
 padding-right: 4px;
 
+=======
+margin: 0;
+padding-bottom: 10px;
+>>>>>>> e67c2883d65eb7d01260a53dc505ced6a625f250
 font-weight: 400;
 }
 
@@ -153,7 +158,6 @@ h4{
 }
 }
 
-
 /* 651 PIXLAR */
 /*
 @media only screen and (max-width: 651px){
@@ -171,14 +175,6 @@ h4{
 
 @media only screen and (max-width: 650px){
 
-header{
-    background: #b2dcea;
-    height: 50px;
-    border: black 2px solid;
-    border-radius: 10px;
-    text-align: center;
-}
-
 .box {
     position: relative;
     margin: 3% 3% 3% 3%;
@@ -189,29 +185,6 @@ header{
     text-align: center;
 }
 .name{
-    display: none;
-}
-
-/* Lita link-ana svarta og stækka letrið á þeim */
-header a{
-    display: none;
-}
-
-/* Svo "hire" og "fire" sé alveg efst. */
-header ul{
-    display: none;
-}
-
-/* Til að fá "hire" og "fire" til að vera hlið við hlið */
-header li{
-    display: none;
-}
-
-#searchbox{
-    display: none;
-}
-
-#searchbox input[type="text"]{
     display: none;
 }
 
@@ -265,33 +238,11 @@ img{
 
 @media print {
 
-
 body{
     font-family: 'Ibarra Real Nova', serif;
     margin: 0;
     padding: 0;
 }
-
-
-/* Svo "hire" og "fire" sé alveg efst. */
-header ul{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-
-
-#searchbox{
-    margin-bottom: 20px;
-    padding-top: 20px;
-}
-
-#searchbox input[type="text"]{
-    width: 130px;
-    border: lightgray 1px solid;
-
-}
-
 
 .box{
     margin: 0 2px 0 2px;
@@ -321,7 +272,6 @@ display: none;
 .information{
     text-align: center;
     padding-top: 40px;
-
 }
 
 .information h3{
@@ -345,12 +295,8 @@ display: none;
     font-weight: 400;
     text-align: center;
 }
-.footer2{
-    margin-top: 0;
 
-}
 #hamburger{
     display: none;
-
 }
 }
