@@ -89,13 +89,14 @@ word-wrap: break-word;
 }
 
 .top{
+text-align: center;
 margin: 0;
 padding-top: 10px;
 font-weight: 500;
 }
 
 .bottom{
-    margin: 0;
+margin: 0;
 padding-top: 15px;
 padding-right: 4px;
 
@@ -117,17 +118,17 @@ display: none;
     height: 200px;
 }
 .img_and_h4{
+    text-align: center;
     display: flex;
 
 }
 img{
     width: 75px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 h4{
     text-align: center;
+    display: inline;  
     word-wrap: break-word;
     width: 120px;
     font-size: 20px;
@@ -145,7 +146,6 @@ h4{
     padding-top: 0px;
     padding-left: 10px;
     font-size: 12px;
-    width: 140px;
     word-wrap: break-word;
 }
 #hamburger{
