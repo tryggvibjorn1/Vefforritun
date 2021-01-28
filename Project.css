@@ -81,7 +81,7 @@ font-weight: 500;
 padding-left: 15px;
 }
 
-.information h4{
+.info h4{
 padding-top: 15px;
 font-size: 16px;
 width: 130px;
@@ -117,7 +117,7 @@ display: none;
     width: 300px;
     height: 200px;
 }
-.img_and_h4{
+.img_h3{
     text-align: center;
     display: flex;
 
@@ -142,7 +142,7 @@ h4{
     padding-right: 4px;
 }
 
-.information h3{
+.info h3{
     padding-top: 0px;
     padding-left: 10px;
     font-size: 12px;
@@ -170,7 +170,7 @@ h4{
     display: none;
 }
 
-.img_and_h4{
+.img_h3{
     display: inline-block;
 }
 
@@ -178,7 +178,7 @@ img{
     display: none;
 }
 
-.img_and_h4 h4{
+.img_h3 h4{
     word-wrap: break-word;
     display: inline-block;
     margin: 25px 0 15px 0;
@@ -192,11 +192,11 @@ img{
     text-align: center;
 }
 
-.information{
+.info{
     text-align: center;
 }
 
-.information h3{
+.info h3{
     width: 300px;
     font-size: 16px;
     word-wrap: break-word;
@@ -251,12 +251,12 @@ h4{
 display: none;
 }
 
-.information{
+.info{
     text-align: center;
     padding-top: 40px;
 }
 
-.information h3{
+.info h3{
     padding-top: 10px;
     font-size: 16px;
     width: 300px;
